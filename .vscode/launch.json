@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python:Odoo",
+            "type":"python",
+            "request":"launch",
+            "stopOnEntry": false,
+            "python":"${command:python.interpreterPath}",
+            "console":"integratedTerminal",
+            "program":"/home/dvcky/odoo16/odoo/odoo-bin",
+            "args": [
+               "--config=/etc/odoo15.conf",
+            ],
+            "cwd":"${workspaceRoot}",
+            "env": {},
+            "envFile":"${workspaceRoot}/.env",
+        }
+    ]
+}
